@@ -17,7 +17,7 @@
 
 import unittest
 
-from blocks import unicodeBlock
+from .blocks import unicodeBlock
 
 class blocks_test(unittest.TestCase):
     def test_unicodeBlock(self):
